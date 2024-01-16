@@ -233,7 +233,7 @@ if select=="District based Data":
         with engine.begin() as conn:
             ans6=pd.read_sql_query(sql,conn)
             st.write("Your Selected table from SQL Database:",ans6)
-            #st.write(ans6)
+            #st.write(ans6):
             view=st.button("view chart")
             if view:
                 pie_chart1(ans6)

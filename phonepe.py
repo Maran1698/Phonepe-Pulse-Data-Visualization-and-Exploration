@@ -110,7 +110,7 @@ if select=="Year Based Data":
     myfilt=st.selectbox("select:",("transaction_data",
                                    "yearly_mobile_transaction", 
                                    "registeruser_and_applicationopendetails"))
-    #myfun=st.sidebar.selectbox('Select', ['Transaction_count', 'Transaction_amount'])
+    #myfun=st.sidebar.selectbox('Select', ['Transaction_count', 'Transaction_amount']):
     if myfilt=="transaction_data":
   #         quater=st.sidebar.number_input('quater:',1,4)
    #         if quater:
